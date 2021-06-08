@@ -1,0 +1,89 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /Users/yoshiaki_matsutomo/google-cloud-sdk/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/yoshiaki_matsutomo/Library/Application Support/cloud-code/installer/google-cloud-sdk/bin:/Users/yoshiaki_matsutomo/google-cloud-sdk/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/yoshiaki_matsutomo/Documents/sample-apps/dev_community/sql_injection/app/package.json: Unexpected token } in JSON at position 628
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@material-ui/core": "^4.11.4",
+      "@material-ui/icons": "^4.11.2",
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "@types/jest": "^26.0.15",
+      "@types/node": "^12.0.0",
+      "@types/react": "^17.0.0",
+      "@types/react-dom": "^17.0.0",
+      "@types/react-router-dom": "^5.1.7",
+      "axios": "^0.21.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-hook-form": "^7.7.0",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "4.0.3",
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "prettify": "npx prettier --check ./src",
+      "prettify:fix": "npx prettier --write ./src",
+      "lint": "npx eslint . --ext .tsx --ext .ts",
+      "lint:fix": "npx eslint . --fix --ext .tsx --ext .ts"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "eslint": "6.x",
+      "eslint-config-google": "^0.14.0",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-plugin-prettier": "^3.4.0",
+      "eslint-plugin-react": "7.x",
+      "prettier": "^2.2.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

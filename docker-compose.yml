@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  backend:
+    image: node:12
+    working_dir: /api
+    volumes:
+      - ./api:/api
+    entrypoint: sh -c 'yarn install && yarn start'
+    tty: true
+    ports:
+      - 127.0.0.1:3001:3001
+  frontend:
+    image: node:12
+    working_dir: /app
+    volumes:
+      - ./app:/app
+    entrypoint: sh -c 'yarn install && yarn start'
+    tty: true
+    ports:
+      - 127.0.0.1:3000:3000
+
+
