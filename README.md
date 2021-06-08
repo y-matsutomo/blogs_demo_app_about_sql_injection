@@ -1,6 +1,6 @@
 # Demo Application for SQL injection tutorials
 
-The project has two servers which are an API and a React applicaiton servers
+The project has two servers which are an API and a React applicaiton servers.
 
 You have two options to start them.
 
