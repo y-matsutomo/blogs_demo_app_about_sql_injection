@@ -5,7 +5,7 @@ This is a demo application for the article, [TypeORM - Prevent SQL Injection wit
 The project has two servers which are an API and a React applicaiton servers. You have two options to start them.
 
 ### Start applicaitons with docker-compose
-docker-compose up --build
+`docker-compose up --build`
 
 It might take a few minutes to start the React application... 
 In this case, you should start each of them as below.
@@ -15,13 +15,13 @@ In this case, you should start each of them as below.
 ### API Server
 http://localhost:3001
 
-1. cd api
-2. yarn isntall
-3. yarn start
+1. `cd api`
+2. `yarn isntall`
+3. `yarn start`
 
 ### Reac Application Server
 http://localhost:3000
 
-1. cd app
-2. yarn isntall
-3. yarn start
+1. `cd app`
+2. `yarn isntall`
+3. `yarn start`
