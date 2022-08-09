@@ -25,5 +25,3 @@ http://localhost:3000
 1. `cd app`
 2. `yarn isntall`
 3. `yarn start`
-
-test
